@@ -10,5 +10,9 @@ management:
         include: health, info, refresh
   endpoint:
     health:
-      shoe-details: always
+      show-details: always
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
   
